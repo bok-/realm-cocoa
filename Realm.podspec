@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'Realm'
-  s.version                 = `sh build.sh get-version`
+  s.version                 = '0.90.5'
   s.summary                 = 'Realm is a modern data framework & database for iOS & OSX.'
   s.description             = <<-DESC
                               Realm is a modern data framework & database for iOS & OSX. You can use it purely in memory — or persist to disk with extraordinary performance.
