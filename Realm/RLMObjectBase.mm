@@ -233,6 +233,10 @@
     if (self == object) {
         return YES;
     }
+    // if not a realm object
+    if (![object isKindOfClass:[RLMObjectBase class]]) {
+        return NO;
+    }
     // if not in realm or differing realms
     if (_realm == nil || _realm != object.realm) {
         return NO;
